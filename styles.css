@@ -182,6 +182,10 @@ footer a {
     font-size: 20px;
     padding: 5px;
 }
+.fa-brand:hover {
+    color: hsl(322, 100%, 66%);
+    transition: .5s;
+}
 .socail-container {
     display: flex;
 }
@@ -197,7 +201,6 @@ footer a {
     transition: .5s;
 }
 .socail-container > div:hover {
-    color: hsl(322, 100%, 66%);
     border-color:  hsl(322, 100%, 66%);
 }
 #social {
